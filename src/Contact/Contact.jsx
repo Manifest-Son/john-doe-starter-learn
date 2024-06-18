@@ -39,6 +39,7 @@ const Contact = () => {
           <button
             className="contact-form__btn-close-message"
             type="button"
+            title="close notification"
             onClick={() =>
               messageRef.current.classList.add("contact-form__message--closed")
             }
